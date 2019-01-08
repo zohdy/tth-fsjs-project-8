@@ -1,0 +1,31 @@
+{
+  "name": "tth-fsjs-project-8",
+  "version": "1.0.0",
+  "description": "An SQL-based library manager. Project 8 for Team Treehouse Full Stack JS techdegree.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohdy/tth-fsjs-project-8.git"
+  },
+  "author": "Patrick Peter Zohdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zohdy/tth-fsjs-project-8/issues"
+  },
+  "homepage": "https://github.com/zohdy/tth-fsjs-project-8#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.4"
+  }
+}
